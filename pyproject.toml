@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "activeloop-langchain-course"
+version = "0.1.0"
+description = ""
+authors = ["Prasanth Balaraman <prasanth.balaraman@genesys.com>"]
+readme = "README.md"
+packages = [{include = "activeloop_langchain_course"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.209"
+deeplake = "^3.6.5"
+openai = "^0.27.8"
+tiktoken = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
